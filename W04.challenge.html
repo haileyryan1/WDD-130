@@ -4,21 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1 {
+            color:#ffffff;
+            font-size: 36px;
+        }
+        h1:hover {
+            color:#000000;
+        }
+        p {
+            color:white;
+            font-size: 18px;
+        }
+        #tag {
+            color:white;
+            font: weight 200px;
+            font-size: 20px;
+        }
+        #quote {
+            text-align:center;
+            width: 50%;
+            color:white;
+            font-size: 36px;
+            margin: 0 auto;
+        }
+        #foot {
+            text-align:center;
+            width: 50%;
+            color:black;
+            font-size: 18px;
+            margin:0 auto;
+        }
+         body {
+            text-align:center;
+            background-color: #ffffff;
+        }
+        .container {
+            background-color: #5d7ccb;
+            border: 1px solid #000000;
+            padding: 20px;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        header, footer {
+            text-align:center;
+            margin: 20px 0;
+        }
+        img {
+            margin: 20px 0;
+        }
+        ol {
+            text-align: left;
+            color:white;
+            font-size: 20px
+        }
+    </style>
 </head>
-    <header>Education</header>
-    <p>Education is the difference between wishing you could help others & being able to help them</p>
-    <p>-- President Nelson</p>
 <body>
-    <p>1. Faith in the Lord Jesus Christ</p>
-    <p>2. Repentance</p>
-    <p>3. Baptism by immersion for the remission of sins</p>
-    <p>4. Laying on of hands for the gift of the Holy Ghost</p>
-    <img src="prophet.jpeg", alt="President Russel M. Nelson">
-    <p>"Because of the Savior's Atonement, His gospel provides 
-        an invitaion to keep changing, growing, and becoming more pure."</p>
+    <div class="container">
+        <header>
+            <h1>Education</h1>
+            <p>Education is the difference between wishing you could help others & being able to help them</p>
+            <p id="tag">-- President Nelson</p>
+        </header>
+        <ol>
+            <li>Faith in the Lord Jesus Chirst</li>
+            <li>Repentance</li>
+            <li>Baptism by immersion for the remission of sins</li>
+            <li>Laying on of hands for the gift of the Holy Ghost</li>
+        </ol>
+        <img src="prophet.jpeg", alt="President Russel M. Nelson" width="250" height="300"/>
+        <p id="quote">"Because of the Savior's Atonement, His gospel provides 
+            an invitation to keep changing, growing, and becoming more pure."</p>
+    <footer>
+        <p id="foot">Russel M. Nelson</p3>
+        <p id="foot">President of the Church of Jesus Christ of Latter-Day Saints</p3>
+    </footer>
+    </div>
 </body>
-<footer>
-    <p>Russel M. Nelson</p>
-    <p>President of the Church of Jesus Christ of Latter-Day Saints</p>
-</footer>
 </html>
