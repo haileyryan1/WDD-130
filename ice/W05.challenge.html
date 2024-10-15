@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W05 Challenge</title>
+    <style>
+        body {
+            background-color:#737373;
+        }
+        .column {
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            gap: 20px;
+            margin-left:100px;
+            margin-right:100px;
+            margin-top:25px;
+        }
+        .column img {
+            width:200px;
+            height: 200px;
+            border-radius:50%;
+            border: 10px solid #444444;
+        }
+        .row::after {
+            content:"";
+            clear:both;
+            display:table;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/w05_circles.jpg" alt="Title section" style="width:100%; height:auto;margin:0">
+    </header>
+        <div class="row">
+            <div class="column">
+                <img src="images/w05_desk.jpg" alt="desk">
+                <img src="images/w05_graphic.png" alt="graphic">
+                <img src="images/w05_person.jpg" alt="person">
+        </div>
+</body>
+</html>
