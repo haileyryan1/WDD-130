@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,11 +10,19 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: white;
+    padding: 35px;
 }
-
+h1, h2 {
+    font-family: 'Permanent Marker', 'Bradley Hand', sans-serif;
+    margin: 0;
+}
 h1, h4 {
     text-align: center;
     color:#065143;
+}
+.home_title {
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .button_box {
@@ -22,20 +33,29 @@ main section {
     text-align: center;
 }
 body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 22px;
+    margin:0;
+    padding: 0;
     background-color: #DDD8B8;
 }
 
 header {
     background-color: #84A9C0;
+
 }
 
 nav a:hover {
     background-color: #132E32;
 }
 .book, .join{
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
     color: #DDD8B8;
     background-color: #065143;
     text-decoration: none;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     color:#84A9C0;
@@ -46,13 +66,28 @@ nav a:hover {
 }
 .msg {
     background-color: #132E32;
+    line-height: 1.5em;
 }
-.msg h2, .msg p {
+.msg h2 {
     color: #DDD8B8;
+}
+.msg p{
+    font-size: 0.8em;
+    color: #DDD8B8;
+    padding-bottom: 15px;
+}
+h3 {
+    font-family: 'Montserrat', Arial, san-serif;
+    color:#132E32;
 }
 
 footer {
-    background-color:#065143
+    background-color:#065143;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social {
+    padding-top: 15px;
 }
 footer p {
     color:white;
@@ -68,14 +103,25 @@ footer a:hover {
 
 .logo{
     width: 80px;
+    padding-bottom: 30px;
+}
+#logo_link {
+    padding-top: 5px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero_img {
     width: 100%;
 }
 
-.home_grid {
-    position: center
+.rivers-card, .raft-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #132E32;
+}
+main section img {
+    box-sizing: border-box;
 }
