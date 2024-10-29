@@ -1,0 +1,16 @@
+.content {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gray{
+    width:100%;
+    height:auto;
+    grid-column: 2;
+    background-color:gray;
+}
+img {
+    width:100%;
+    height:auto;
+    grid-column:1;
+    background-color:white;
+}
