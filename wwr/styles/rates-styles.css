@@ -21,6 +21,7 @@ h1 {
 h3 {
     font-family: "Montserrat", "Arial", sans-serif;
     font-size: xx-large;
+    color:#132E32;
 }
 h4 {
     font-family: "Montserrat", "Arial", sans-serif;
@@ -77,11 +78,6 @@ nav a:hover {
     background-color:#84A9C0;
 }
 
-h3 {
-    font-family: 'Montserrat', Arial, san-serif;
-    color:#132E32;
-}
-
 footer {
     background-color:#065143;
     padding: 25px 50px;
@@ -126,7 +122,6 @@ footer a:hover {
     box-shadow: 5px 5px 15px #132E32;
     text-align:center;
     height: 800px;
-    object-fit:cover;
 }
 .trip_card2{
     background-color:#84A9C0;
@@ -182,7 +177,7 @@ nav {
 }
 .trips_grid{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 1fr, 1fr, 1fr;
     gap:20px;
     margin: 50px 0;
 }
