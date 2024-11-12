@@ -132,7 +132,6 @@ footer a:hover {
     box-shadow: 5px 5px 15px #132E32;
     text-align:center;
     height: 800px;
-    object-fit:cover;
 }
 .trip_card3{
     background-color:#84A9C0;
@@ -143,7 +142,6 @@ footer a:hover {
     box-shadow: 5px 5px 15px #132E32;
     text-align:center;
     height: 800px;
-    object-fit:cover;
 }
 .card-img {
     border: 5px solid #132E32;
